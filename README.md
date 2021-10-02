@@ -8,7 +8,7 @@ The control systems team deals with path planning, motion planning and interfaci
 
 Start by installing each of the packages listed below. We recommend using Ubuntu(at least 18.04) as thats what ROS2 is optimised for.
 
-ROS2: https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Binary.html
+ROS2: https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Binary.html
 
 Gazebo: https://gazebosim.org/tutorials?cat=guided_b&tut=guided_b1
 
@@ -32,3 +32,29 @@ When you have understood how planner plugins are made and the different componen
 
 ### Submission
 Fork this repo and clone it. And then work on this repo. Submission should include all your project files, and any extra dependencies you've added on top of it (and how to use them).
+
+## References and useful stuff
+**ROS2 Docs**
+
+Important
+- Configuring ROS environment: https://docs.ros.org/en/galactic/Tutorials/Configuring-ROS2-Environment.html
+
+Just understanding the below concepts and the commands to interact with them should be enough (but feel free to execute them on the turtlesim if you want). 
+- ROS2 Nodes: https://docs.ros.org/en/galactic/Tutorials/Understanding-ROS2-Nodes.html
+- ROS2 Topics: https://docs.ros.org/en/galactic/Tutorials/Topics/Understanding-ROS2-Topics.html
+- ROS2 Actions: https://docs.ros.org/en/rolling/Tutorials/Understanding-ROS2-Actions.html
+- ROS2 Param: https://docs.ros.org/en/galactic/Tutorials/Parameters/Understanding-ROS2-Parameters.html
+- ROS2 Plugins (ties into the Nav2 one as well): https://docs.ros.org/en/galactic/Tutorials/Pluginlib.html
+
+Good to know (but not necessary)
+- ROS2 Turtlesim https://docs.ros.org/en/galactic/Tutorials/Turtlesim/Introducing-Turtlesim.html
+- ROS2 Launch Files (not necessary but could make life easier so you don't have to enter a million commands): https://docs.ros.org/en/galactic/Tutorials/Launch-Files/Creating-Launch-Files.html
+- ROS2 Creating Workspace https://docs.ros.org/en/galactic/Tutorials/Workspace/Creating-A-Workspace.html
+- ROS2 Creating ROS Package (if you decide not to build off nav_2_straight): https://docs.ros.org/en/galactic/Tutorials/Creating-Your-First-ROS2-Package.html
+
+**Nav2**
+- Everything from installation to executing path planning: https://navigation.ros.org/getting_started/index.html#getting-started
+- Only need to understand action servers (same as before) + planning section
+https://navigation.ros.org/concepts/index.html
+- Explains the nav2_straightline_planner plugin code: https://navigation.ros.org/plugin_tutorials/docs/writing_new_nav2planner_plugin.html
+- Example path plugins using A*, Djikstra and others: https://navigation.ros.org/plugins/index.html#planners
