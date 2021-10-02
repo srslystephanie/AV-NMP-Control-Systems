@@ -31,7 +31,7 @@ Work your way through the code + explanations provided in the tutorial (or feel 
 When you have understood how planner plugins are made and the different components, your task is to modify the plugin provided and implement your own path planning algorithm. It can be anything you like (Shortest path, Djikstra, A*, PRM, RRT*)
 
 ### Submission
-Fork this repo and clone it. And then work on this repo. Submission should include all your project files, and any extra dependencies you've added on top of it (and how to use them).
+Fork this repo and clone it, and then work on the repo. Submission should include all your project files, and any extra dependencies you've added on top of it (and how to use them).
 
 ## References and useful stuff
 **ROS2 Docs**
