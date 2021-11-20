@@ -1,0 +1,45 @@
+[01m[K/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_sms_recovery/src/sms_recovery.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_sms_recovery::SMSRecovery::onConfigure()[m[K’:
+[01m[K/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_sms_recovery/src/sms_recovery.cpp:25:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp_lifecycle::LifecycleNode::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   25 |   node->declare_parameter("account_sid"[01;35m[K)[m[K;
+      |                                        [01;35m[K^[m[K
+In file included from [01m[K/home/stephanie/install/nav2_util/include/nav2_util/lifecycle_node.hpp:23[m[K,
+                 from [01m[K/home/stephanie/install/nav2_core/include/nav2_core/recovery.hpp:22[m[K,
+                 from [01m[K/home/stephanie/install/nav2_recoveries/include/nav2_recoveries/recovery.hpp:32[m[K,
+                 from [01m[K/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_sms_recovery/include/nav2_sms_recovery/sms_recovery.hpp:11[m[K,
+                 from [01m[K/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_sms_recovery/src/sms_recovery.cpp:8[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp_lifecycle/lifecycle_node.hpp:357:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  357 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_sms_recovery/src/sms_recovery.cpp:27:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp_lifecycle::LifecycleNode::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   27 |   node->declare_parameter("auth_token"[01;35m[K)[m[K;
+      |                                       [01;35m[K^[m[K
+In file included from [01m[K/home/stephanie/install/nav2_util/include/nav2_util/lifecycle_node.hpp:23[m[K,
+                 from [01m[K/home/stephanie/install/nav2_core/include/nav2_core/recovery.hpp:22[m[K,
+                 from [01m[K/home/stephanie/install/nav2_recoveries/include/nav2_recoveries/recovery.hpp:32[m[K,
+                 from [01m[K/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_sms_recovery/include/nav2_sms_recovery/sms_recovery.hpp:11[m[K,
+                 from [01m[K/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_sms_recovery/src/sms_recovery.cpp:8[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp_lifecycle/lifecycle_node.hpp:357:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  357 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_sms_recovery/src/sms_recovery.cpp:29:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp_lifecycle::LifecycleNode::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   29 |   node->declare_parameter("from_number"[01;35m[K)[m[K;
+      |                                        [01;35m[K^[m[K
+In file included from [01m[K/home/stephanie/install/nav2_util/include/nav2_util/lifecycle_node.hpp:23[m[K,
+                 from [01m[K/home/stephanie/install/nav2_core/include/nav2_core/recovery.hpp:22[m[K,
+                 from [01m[K/home/stephanie/install/nav2_recoveries/include/nav2_recoveries/recovery.hpp:32[m[K,
+                 from [01m[K/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_sms_recovery/include/nav2_sms_recovery/sms_recovery.hpp:11[m[K,
+                 from [01m[K/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_sms_recovery/src/sms_recovery.cpp:8[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp_lifecycle/lifecycle_node.hpp:357:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  357 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_sms_recovery/src/sms_recovery.cpp:31:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp_lifecycle::LifecycleNode::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   31 |   node->declare_parameter("to_number"[01;35m[K)[m[K;
+      |                                      [01;35m[K^[m[K
+In file included from [01m[K/home/stephanie/install/nav2_util/include/nav2_util/lifecycle_node.hpp:23[m[K,
+                 from [01m[K/home/stephanie/install/nav2_core/include/nav2_core/recovery.hpp:22[m[K,
+                 from [01m[K/home/stephanie/install/nav2_recoveries/include/nav2_recoveries/recovery.hpp:32[m[K,
+                 from [01m[K/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_sms_recovery/include/nav2_sms_recovery/sms_recovery.hpp:11[m[K,
+                 from [01m[K/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_sms_recovery/src/sms_recovery.cpp:8[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp_lifecycle/lifecycle_node.hpp:357:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  357 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K

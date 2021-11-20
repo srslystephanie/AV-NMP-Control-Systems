@@ -1,0 +1,34 @@
+[0.031s] Invoking command in '/home/stephanie/AV-NMP-Control-Systems/dev_ws/build/sam_bot_description': /usr/bin/cmake /home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/sam_bot_description -DCMAKE_INSTALL_PREFIX=/home/stephanie/AV-NMP-Control-Systems/dev_ws/install/sam_bot_description
+[0.105s] -- The C compiler identification is GNU 9.3.0
+[0.170s] -- The CXX compiler identification is GNU 9.3.0
+[0.176s] -- Check for working C compiler: /usr/bin/cc
+[0.254s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.256s] -- Detecting C compiler ABI info
+[0.342s] -- Detecting C compiler ABI info - done
+[0.358s] -- Detecting C compile features
+[0.359s] -- Detecting C compile features - done
+[0.364s] -- Check for working CXX compiler: /usr/bin/c++
+[0.465s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.466s] -- Detecting CXX compiler ABI info
+[0.562s] -- Detecting CXX compiler ABI info - done
+[0.578s] -- Detecting CXX compile features
+[0.578s] -- Detecting CXX compile features - done
+[0.591s] CMake Error at CMakeLists.txt:19 (find_package):
+[0.591s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.591s]   has asked CMake to find a package configuration file provided by
+[0.591s]   "ament_cmake", but CMake did not find one.
+[0.591s] 
+[0.591s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.591s]   any of the following names:
+[0.591s] 
+[0.591s]     ament_cmakeConfig.cmake
+[0.592s]     ament_cmake-config.cmake
+[0.592s] 
+[0.592s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.592s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.592s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.592s]   has been installed.
+[0.592s] 
+[0.592s] 
+[0.592s] -- Configuring incomplete, errors occurred!
+[0.593s] See also "/home/stephanie/AV-NMP-Control-Systems/dev_ws/build/sam_bot_description/CMakeFiles/CMakeOutput.log".

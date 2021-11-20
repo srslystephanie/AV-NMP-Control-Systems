@@ -1,0 +1,56 @@
+[0.061s] Invoking command in '/home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_gradient_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stephanie/install/nav2_simple_commander:/home/stephanie/install/nav2_gazebo_spawner:/home/stephanie/install/examples_rclpy_pointcloud_publisher:/home/stephanie/install/examples_rclpy_minimal_subscriber:/home/stephanie/install/examples_rclpy_minimal_service:/home/stephanie/install/examples_rclpy_minimal_publisher:/home/stephanie/install/examples_rclpy_minimal_client:/home/stephanie/install/examples_rclpy_minimal_action_server:/home/stephanie/install/examples_rclpy_minimal_action_client:/home/stephanie/install/examples_rclpy_guard_conditions:/home/stephanie/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake /home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_gradient_costmap_plugin -DCMAKE_INSTALL_PREFIX=/home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin
+[0.083s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.152s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.153s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.350s] -- Found rclcpp: 9.1.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.496s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.677s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.721s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.852s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.951s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.961s] -- Found rmw_cyclonedds_cpp: 0.22.3 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.991s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.992s] -- Looking for pthread.h
+[1.087s] -- Looking for pthread.h - found
+[1.087s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.181s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.182s] -- Looking for pthread_create in pthreads
+[1.264s] -- Looking for pthread_create in pthreads - not found
+[1.264s] -- Looking for pthread_create in pthread
+[1.363s] -- Looking for pthread_create in pthread - found
+[1.364s] -- Found Threads: TRUE  
+[1.562s] -- Found nav2_costmap_2d: 1.0.7 (/home/stephanie/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[3.122s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[4.497s] -- Configuring done
+[4.550s] -- Generating done
+[4.552s] -- Build files have been written to: /home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_gradient_costmap_plugin
+[4.561s] Invoked command in '/home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_gradient_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stephanie/install/nav2_simple_commander:/home/stephanie/install/nav2_gazebo_spawner:/home/stephanie/install/examples_rclpy_pointcloud_publisher:/home/stephanie/install/examples_rclpy_minimal_subscriber:/home/stephanie/install/examples_rclpy_minimal_service:/home/stephanie/install/examples_rclpy_minimal_publisher:/home/stephanie/install/examples_rclpy_minimal_client:/home/stephanie/install/examples_rclpy_minimal_action_server:/home/stephanie/install/examples_rclpy_minimal_action_client:/home/stephanie/install/examples_rclpy_guard_conditions:/home/stephanie/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake /home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_gradient_costmap_plugin -DCMAKE_INSTALL_PREFIX=/home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin
+[4.565s] Invoking command in '/home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_gradient_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stephanie/install/nav2_simple_commander:/home/stephanie/install/nav2_gazebo_spawner:/home/stephanie/install/examples_rclpy_pointcloud_publisher:/home/stephanie/install/examples_rclpy_minimal_subscriber:/home/stephanie/install/examples_rclpy_minimal_service:/home/stephanie/install/examples_rclpy_minimal_publisher:/home/stephanie/install/examples_rclpy_minimal_client:/home/stephanie/install/examples_rclpy_minimal_action_server:/home/stephanie/install/examples_rclpy_minimal_action_client:/home/stephanie/install/examples_rclpy_guard_conditions:/home/stephanie/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake --build /home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_gradient_costmap_plugin -- -j6 -l6
+[4.625s] [35m[1mScanning dependencies of target nav2_gradient_costmap_plugin_core[0m
+[4.686s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_gradient_costmap_plugin_core.dir/src/gradient_layer.cpp.o[0m
+[8.422s] [100%] [32m[1mLinking CXX shared library libnav2_gradient_costmap_plugin_core.so[0m
+[8.725s] [100%] Built target nav2_gradient_costmap_plugin_core
+[8.742s] Invoked command in '/home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_gradient_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stephanie/install/nav2_simple_commander:/home/stephanie/install/nav2_gazebo_spawner:/home/stephanie/install/examples_rclpy_pointcloud_publisher:/home/stephanie/install/examples_rclpy_minimal_subscriber:/home/stephanie/install/examples_rclpy_minimal_service:/home/stephanie/install/examples_rclpy_minimal_publisher:/home/stephanie/install/examples_rclpy_minimal_client:/home/stephanie/install/examples_rclpy_minimal_action_server:/home/stephanie/install/examples_rclpy_minimal_action_client:/home/stephanie/install/examples_rclpy_guard_conditions:/home/stephanie/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake --build /home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_gradient_costmap_plugin -- -j6 -l6
+[8.782s] Invoking command in '/home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_gradient_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stephanie/install/nav2_simple_commander:/home/stephanie/install/nav2_gazebo_spawner:/home/stephanie/install/examples_rclpy_pointcloud_publisher:/home/stephanie/install/examples_rclpy_minimal_subscriber:/home/stephanie/install/examples_rclpy_minimal_service:/home/stephanie/install/examples_rclpy_minimal_publisher:/home/stephanie/install/examples_rclpy_minimal_client:/home/stephanie/install/examples_rclpy_minimal_action_server:/home/stephanie/install/examples_rclpy_minimal_action_client:/home/stephanie/install/examples_rclpy_guard_conditions:/home/stephanie/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake --install /home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_gradient_costmap_plugin
+[8.795s] -- Install configuration: ""
+[8.795s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/lib/libnav2_gradient_costmap_plugin_core.so
+[8.796s] -- Set runtime path of "/home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/lib/libnav2_gradient_costmap_plugin_core.so" to ""
+[8.796s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/gradient_layer.xml
+[8.796s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/package_run_dependencies/nav2_gradient_costmap_plugin
+[8.797s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/parent_prefix_path/nav2_gradient_costmap_plugin
+[8.797s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/ament_prefix_path.sh
+[8.797s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/ament_prefix_path.dsv
+[8.797s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/path.sh
+[8.798s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/path.dsv
+[8.798s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.bash
+[8.798s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.sh
+[8.798s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.zsh
+[8.798s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.dsv
+[8.798s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.dsv
+[8.799s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/packages/nav2_gradient_costmap_plugin
+[8.799s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_gradient_costmap_plugin
+[8.799s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/cmake/nav2_gradient_costmap_pluginConfig.cmake
+[8.799s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/cmake/nav2_gradient_costmap_pluginConfig-version.cmake
+[8.800s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.xml
+[8.804s] Invoked command in '/home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_gradient_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stephanie/install/nav2_simple_commander:/home/stephanie/install/nav2_gazebo_spawner:/home/stephanie/install/examples_rclpy_pointcloud_publisher:/home/stephanie/install/examples_rclpy_minimal_subscriber:/home/stephanie/install/examples_rclpy_minimal_service:/home/stephanie/install/examples_rclpy_minimal_publisher:/home/stephanie/install/examples_rclpy_minimal_client:/home/stephanie/install/examples_rclpy_minimal_action_server:/home/stephanie/install/examples_rclpy_minimal_action_client:/home/stephanie/install/examples_rclpy_guard_conditions:/home/stephanie/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake --install /home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_gradient_costmap_plugin

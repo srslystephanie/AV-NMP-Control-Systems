@@ -1,0 +1,205 @@
+[0.000000] (-) TimerEvent: {}
+[0.001190] (nav2_costmap_filters_demo) JobQueued: {'identifier': 'nav2_costmap_filters_demo', 'dependencies': OrderedDict()}
+[0.001323] (nav2_gradient_costmap_plugin) JobQueued: {'identifier': 'nav2_gradient_costmap_plugin', 'dependencies': OrderedDict()}
+[0.001365] (nav2_sms_recovery) JobQueued: {'identifier': 'nav2_sms_recovery', 'dependencies': OrderedDict()}
+[0.001396] (nav2_straightline_planner) JobQueued: {'identifier': 'nav2_straightline_planner', 'dependencies': OrderedDict()}
+[0.001425] (sam_bot_description) JobQueued: {'identifier': 'sam_bot_description', 'dependencies': OrderedDict()}
+[0.001460] (nav2_costmap_filters_demo) JobStarted: {'identifier': 'nav2_costmap_filters_demo'}
+[0.010604] (nav2_gradient_costmap_plugin) JobStarted: {'identifier': 'nav2_gradient_costmap_plugin'}
+[0.019122] (nav2_sms_recovery) JobStarted: {'identifier': 'nav2_sms_recovery'}
+[0.024446] (nav2_straightline_planner) JobStarted: {'identifier': 'nav2_straightline_planner'}
+[0.028128] (sam_bot_description) JobStarted: {'identifier': 'sam_bot_description'}
+[0.040193] (nav2_costmap_filters_demo) JobProgress: {'identifier': 'nav2_costmap_filters_demo', 'progress': 'cmake'}
+[0.040702] (nav2_costmap_filters_demo) Command: {'cmd': ['/usr/bin/cmake', '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_costmap_filters_demo', '-DCMAKE_INSTALL_PREFIX=/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/install/nav2_costmap_filters_demo'], 'cwd': '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/build/nav2_costmap_filters_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'stephanie'), ('SSH_AGENT_PID', '1549'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/stephanie'), ('OLDPWD', '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1343'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'stephanie'), ('JOURNAL_STREAM', '8:32448'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'stephanie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/stephanie-VirtualBox:@/tmp/.ICE-unix/1591,unix/stephanie-VirtualBox:/tmp/.ICE-unix/1591'), ('INVOCATION_ID', '1f168118be4944efb40e58fa2832ccb8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/113d3c3a_ce54_49a7_bc17_45a50970c871'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/build/nav2_costmap_filters_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.046559] (nav2_gradient_costmap_plugin) JobProgress: {'identifier': 'nav2_gradient_costmap_plugin', 'progress': 'cmake'}
+[0.048940] (nav2_gradient_costmap_plugin) Command: {'cmd': ['/usr/bin/cmake', '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_gradient_costmap_plugin', '-DCMAKE_INSTALL_PREFIX=/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/install/nav2_gradient_costmap_plugin'], 'cwd': '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/build/nav2_gradient_costmap_plugin', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'stephanie'), ('SSH_AGENT_PID', '1549'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/stephanie'), ('OLDPWD', '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1343'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'stephanie'), ('JOURNAL_STREAM', '8:32448'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'stephanie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/stephanie-VirtualBox:@/tmp/.ICE-unix/1591,unix/stephanie-VirtualBox:/tmp/.ICE-unix/1591'), ('INVOCATION_ID', '1f168118be4944efb40e58fa2832ccb8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/113d3c3a_ce54_49a7_bc17_45a50970c871'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/build/nav2_gradient_costmap_plugin'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.051953] (nav2_sms_recovery) JobProgress: {'identifier': 'nav2_sms_recovery', 'progress': 'cmake'}
+[0.055143] (nav2_sms_recovery) Command: {'cmd': ['/usr/bin/cmake', '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_sms_recovery', '-DCMAKE_INSTALL_PREFIX=/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/install/nav2_sms_recovery'], 'cwd': '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/build/nav2_sms_recovery', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'stephanie'), ('SSH_AGENT_PID', '1549'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/stephanie'), ('OLDPWD', '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1343'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'stephanie'), ('JOURNAL_STREAM', '8:32448'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'stephanie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/stephanie-VirtualBox:@/tmp/.ICE-unix/1591,unix/stephanie-VirtualBox:/tmp/.ICE-unix/1591'), ('INVOCATION_ID', '1f168118be4944efb40e58fa2832ccb8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/113d3c3a_ce54_49a7_bc17_45a50970c871'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/build/nav2_sms_recovery'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.060601] (nav2_straightline_planner) JobProgress: {'identifier': 'nav2_straightline_planner', 'progress': 'cmake'}
+[0.060653] (nav2_straightline_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_straightline_planner', '-DCMAKE_INSTALL_PREFIX=/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/install/nav2_straightline_planner'], 'cwd': '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/build/nav2_straightline_planner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'stephanie'), ('SSH_AGENT_PID', '1549'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/stephanie'), ('OLDPWD', '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1343'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'stephanie'), ('JOURNAL_STREAM', '8:32448'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'stephanie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/stephanie-VirtualBox:@/tmp/.ICE-unix/1591,unix/stephanie-VirtualBox:/tmp/.ICE-unix/1591'), ('INVOCATION_ID', '1f168118be4944efb40e58fa2832ccb8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/113d3c3a_ce54_49a7_bc17_45a50970c871'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/build/nav2_straightline_planner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.064454] (sam_bot_description) JobProgress: {'identifier': 'sam_bot_description', 'progress': 'cmake'}
+[0.069500] (sam_bot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/sam_bot_description', '-DCMAKE_INSTALL_PREFIX=/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/install/sam_bot_description'], 'cwd': '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/build/sam_bot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'stephanie'), ('SSH_AGENT_PID', '1549'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/stephanie'), ('OLDPWD', '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1343'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'stephanie'), ('JOURNAL_STREAM', '8:32448'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'stephanie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/stephanie-VirtualBox:@/tmp/.ICE-unix/1591,unix/stephanie-VirtualBox:/tmp/.ICE-unix/1591'), ('INVOCATION_ID', '1f168118be4944efb40e58fa2832ccb8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/113d3c3a_ce54_49a7_bc17_45a50970c871'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/build/sam_bot_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.100033] (-) TimerEvent: {}
+[0.200653] (sam_bot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.200995] (-) TimerEvent: {}
+[0.203065] (nav2_costmap_filters_demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.203545] (nav2_sms_recovery) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.205044] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.208448] (nav2_straightline_planner) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.267386] (sam_bot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.268613] (nav2_straightline_planner) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.269805] (nav2_sms_recovery) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.273913] (sam_bot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.274554] (nav2_straightline_planner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.276130] (nav2_sms_recovery) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.277641] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.280013] (nav2_costmap_filters_demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.282903] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.287721] (nav2_costmap_filters_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.301970] (-) TimerEvent: {}
+[0.372061] (sam_bot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.375684] (sam_bot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.380093] (nav2_sms_recovery) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.382775] (nav2_sms_recovery) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.384990] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.386789] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.388626] (nav2_straightline_planner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.390366] (nav2_costmap_filters_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.390692] (nav2_straightline_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.393639] (nav2_costmap_filters_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.402290] (-) TimerEvent: {}
+[0.488658] (sam_bot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.491008] (nav2_sms_recovery) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.499375] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.502656] (-) TimerEvent: {}
+[0.505038] (nav2_costmap_filters_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.508445] (nav2_straightline_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.510140] (sam_bot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.510569] (nav2_sms_recovery) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.511021] (nav2_sms_recovery) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.511117] (sam_bot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.515121] (nav2_sms_recovery) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.516037] (sam_bot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.517105] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.517769] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.521017] (nav2_costmap_filters_demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.521645] (nav2_costmap_filters_demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.521779] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.524521] (nav2_straightline_planner) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.524878] (nav2_costmap_filters_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.525089] (nav2_straightline_planner) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.528152] (nav2_straightline_planner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.603698] (-) TimerEvent: {}
+[0.647601] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.649212] (nav2_sms_recovery) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.649569] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.651205] (nav2_sms_recovery) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.658357] (nav2_costmap_filters_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.660094] (nav2_costmap_filters_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.663579] (nav2_straightline_planner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.665281] (nav2_straightline_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.670425] (sam_bot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.672018] (sam_bot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.704432] (-) TimerEvent: {}
+[0.775973] (nav2_sms_recovery) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.778237] (nav2_costmap_filters_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.786065] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.792914] (nav2_sms_recovery) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.793752] (nav2_sms_recovery) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.796804] (nav2_straightline_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.797572] (nav2_costmap_filters_demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.798179] (nav2_costmap_filters_demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.803536] (sam_bot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.804649] (-) TimerEvent: {}
+[0.807336] (nav2_sms_recovery) StderrLine: {'line': b'CMake Error at CMakeLists.txt:8 (find_package):\n'}
+[0.807766] (nav2_sms_recovery) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.807860] (nav2_sms_recovery) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.808576] (nav2_sms_recovery) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.808759] (nav2_sms_recovery) StderrLine: {'line': b'\n'}
+[0.809320] (nav2_sms_recovery) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.809459] (nav2_sms_recovery) StderrLine: {'line': b'  any of the following names:\n'}
+[0.809575] (nav2_sms_recovery) StderrLine: {'line': b'\n'}
+[0.809686] (nav2_sms_recovery) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.809985] (nav2_sms_recovery) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.810134] (nav2_sms_recovery) StderrLine: {'line': b'\n'}
+[0.810738] (nav2_sms_recovery) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.811030] (nav2_sms_recovery) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.811315] (nav2_sms_recovery) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.811645] (nav2_sms_recovery) StderrLine: {'line': b'  has been installed.\n'}
+[0.811833] (nav2_sms_recovery) StderrLine: {'line': b'\n'}
+[0.812009] (nav2_sms_recovery) StderrLine: {'line': b'\n'}
+[0.812703] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.812852] (nav2_sms_recovery) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.813791] (nav2_sms_recovery) StdoutLine: {'line': b'See also "/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/build/nav2_sms_recovery/CMakeFiles/CMakeOutput.log".\n'}
+[0.814030] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.814488] (nav2_costmap_filters_demo) StderrLine: {'line': b'CMake Error at CMakeLists.txt:6 (find_package):\n'}
+[0.815775] (nav2_costmap_filters_demo) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.815965] (nav2_costmap_filters_demo) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.816217] (nav2_costmap_filters_demo) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.816459] (nav2_costmap_filters_demo) StderrLine: {'line': b'\n'}
+[0.821307] (nav2_costmap_filters_demo) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.823182] (nav2_costmap_filters_demo) StderrLine: {'line': b'  any of the following names:\n'}
+[0.823384] (nav2_costmap_filters_demo) StderrLine: {'line': b'\n'}
+[0.823611] (nav2_costmap_filters_demo) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.823743] (nav2_costmap_filters_demo) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.823893] (nav2_costmap_filters_demo) StderrLine: {'line': b'\n'}
+[0.824009] (nav2_costmap_filters_demo) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.824397] (nav2_costmap_filters_demo) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.824479] (nav2_costmap_filters_demo) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.824554] (nav2_costmap_filters_demo) StderrLine: {'line': b'  has been installed.\n'}
+[0.824640] (nav2_costmap_filters_demo) StderrLine: {'line': b'\n'}
+[0.824714] (nav2_costmap_filters_demo) StderrLine: {'line': b'\n'}
+[0.825601] (nav2_costmap_filters_demo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.825880] (nav2_costmap_filters_demo) StdoutLine: {'line': b'See also "/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/build/nav2_costmap_filters_demo/CMakeFiles/CMakeOutput.log".\n'}
+[0.826028] (sam_bot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.826170] (nav2_sms_recovery) CommandEnded: {'returncode': 1}
+[0.826843] (sam_bot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.827173] (nav2_straightline_planner) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.834248] (nav2_straightline_planner) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.835718] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'CMake Error at CMakeLists.txt:24 (find_package):\n'}
+[0.835921] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.836052] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.836184] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.836296] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'\n'}
+[0.836417] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.837209] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'  any of the following names:\n'}
+[0.837372] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'\n'}
+[0.837569] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.837790] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.839456] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'\n'}
+[0.839755] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.839925] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.840051] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.840165] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'  has been installed.\n'}
+[0.840312] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'\n'}
+[0.840724] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'\n'}
+[0.840886] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.841019] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'See also "/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/build/nav2_gradient_costmap_plugin/CMakeFiles/CMakeOutput.log".\n'}
+[0.841185] (sam_bot_description) StderrLine: {'line': b'CMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.845689] (sam_bot_description) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.845957] (sam_bot_description) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.846061] (sam_bot_description) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.846138] (sam_bot_description) StderrLine: {'line': b'\n'}
+[0.846209] (sam_bot_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.846376] (sam_bot_description) StderrLine: {'line': b'  any of the following names:\n'}
+[0.846515] (sam_bot_description) StderrLine: {'line': b'\n'}
+[0.846615] (sam_bot_description) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.846719] (sam_bot_description) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.846839] (sam_bot_description) StderrLine: {'line': b'\n'}
+[0.846938] (sam_bot_description) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.847087] (sam_bot_description) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.847198] (sam_bot_description) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.847329] (sam_bot_description) StderrLine: {'line': b'  has been installed.\n'}
+[0.847402] (sam_bot_description) StderrLine: {'line': b'\n'}
+[0.847471] (sam_bot_description) StderrLine: {'line': b'\n'}
+[0.847542] (sam_bot_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.847636] (sam_bot_description) StdoutLine: {'line': b'See also "/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/build/sam_bot_description/CMakeFiles/CMakeOutput.log".\n'}
+[0.847722] (nav2_costmap_filters_demo) CommandEnded: {'returncode': 1}
+[0.848246] (nav2_straightline_planner) StderrLine: {'line': b'CMake Error at CMakeLists.txt:12 (find_package):\n'}
+[0.848378] (nav2_straightline_planner) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.848453] (nav2_straightline_planner) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.848522] (nav2_straightline_planner) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.848591] (nav2_straightline_planner) StderrLine: {'line': b'\n'}
+[0.848659] (nav2_straightline_planner) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.848729] (nav2_straightline_planner) StderrLine: {'line': b'  any of the following names:\n'}
+[0.848796] (nav2_straightline_planner) StderrLine: {'line': b'\n'}
+[0.848864] (nav2_straightline_planner) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.848934] (nav2_straightline_planner) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.849040] (nav2_straightline_planner) StderrLine: {'line': b'\n'}
+[0.849111] (nav2_straightline_planner) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.849223] (nav2_straightline_planner) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.849308] (nav2_straightline_planner) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.849376] (nav2_straightline_planner) StderrLine: {'line': b'  has been installed.\n'}
+[0.849444] (nav2_straightline_planner) StderrLine: {'line': b'\n'}
+[0.849511] (nav2_straightline_planner) StderrLine: {'line': b'\n'}
+[0.850419] (nav2_straightline_planner) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.851023] (nav2_straightline_planner) StdoutLine: {'line': b'See also "/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/build/nav2_straightline_planner/CMakeFiles/CMakeOutput.log".\n'}
+[0.851229] (nav2_gradient_costmap_plugin) CommandEnded: {'returncode': 1}
+[0.852698] (sam_bot_description) CommandEnded: {'returncode': 1}
+[0.858752] (nav2_straightline_planner) CommandEnded: {'returncode': 1}
+[0.884147] (nav2_sms_recovery) JobEnded: {'identifier': 'nav2_sms_recovery', 'rc': 1}
+[0.892177] (nav2_costmap_filters_demo) JobEnded: {'identifier': 'nav2_costmap_filters_demo', 'rc': 1}
+[0.894228] (nav2_gradient_costmap_plugin) JobEnded: {'identifier': 'nav2_gradient_costmap_plugin', 'rc': 'SIGINT'}
+[0.894537] (sam_bot_description) JobEnded: {'identifier': 'sam_bot_description', 'rc': 'SIGINT'}
+[0.894790] (nav2_straightline_planner) JobEnded: {'identifier': 'nav2_straightline_planner', 'rc': 'SIGINT'}
+[0.904734] (-) EventReactorShutdown: {}

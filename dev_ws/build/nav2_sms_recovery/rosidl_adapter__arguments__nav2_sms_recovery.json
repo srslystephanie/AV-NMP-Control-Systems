@@ -1,0 +1,6 @@
+{
+  "package_name": "nav2_sms_recovery",
+  "non_idl_tuples": [
+    "/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_sms_recovery:action/SmsRecovery.action"
+  ]
+}

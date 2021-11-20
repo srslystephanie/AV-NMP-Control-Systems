@@ -1,0 +1,82 @@
+[0.050s] Invoking command in '/home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_straightline_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stephanie/install/nav2_simple_commander:/home/stephanie/install/nav2_gazebo_spawner:/home/stephanie/install/examples_rclpy_pointcloud_publisher:/home/stephanie/install/examples_rclpy_minimal_subscriber:/home/stephanie/install/examples_rclpy_minimal_service:/home/stephanie/install/examples_rclpy_minimal_publisher:/home/stephanie/install/examples_rclpy_minimal_client:/home/stephanie/install/examples_rclpy_minimal_action_server:/home/stephanie/install/examples_rclpy_minimal_action_client:/home/stephanie/install/examples_rclpy_guard_conditions:/home/stephanie/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake /home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_straightline_planner -DCMAKE_INSTALL_PREFIX=/home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner
+[0.079s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.145s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.146s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.332s] -- Found rclcpp: 9.1.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.463s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.488s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.656s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.700s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.822s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.920s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.929s] -- Found rmw_cyclonedds_cpp: 0.22.3 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.959s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.960s] -- Looking for pthread.h
+[1.048s] -- Looking for pthread.h - found
+[1.050s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.146s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.147s] -- Looking for pthread_create in pthreads
+[1.228s] -- Looking for pthread_create in pthreads - not found
+[1.229s] -- Looking for pthread_create in pthread
+[1.318s] -- Looking for pthread_create in pthread - found
+[1.319s] -- Found Threads: TRUE  
+[1.517s] -- Found rclcpp_action: 9.1.0 (/opt/ros/galactic/share/rclcpp_action/cmake)
+[1.651s] -- Found rclcpp_lifecycle: 9.1.0 (/opt/ros/galactic/share/rclcpp_lifecycle/cmake)
+[1.717s] -- Found visualization_msgs: 2.2.3 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[1.875s] -- Found nav2_util: 1.0.7 (/home/stephanie/install/nav2_util/share/nav2_util/cmake)
+[2.755s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[2.763s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.058s] -- Found nav2_costmap_2d: 1.0.7 (/home/stephanie/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[3.987s] -- Found nav2_core: 1.0.7 (/home/stephanie/install/nav2_core/share/nav2_core/cmake)
+[7.363s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[7.494s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.496s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.496s] -- Configured cppcheck include dirs: /home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_straightline_planner/include
+[7.496s] -- Configured cppcheck exclude dirs and/or files: 
+[7.498s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.498s] -- Configured cpplint exclude dirs and/or files: 
+[7.500s] -- Added test 'lint_cmake' to check CMake code style
+[7.502s] -- Added test 'uncrustify' to check C / C++ code style
+[7.502s] -- Configured uncrustify additional arguments: 
+[7.504s] -- Added test 'xmllint' to check XML markup files
+[7.513s] -- Configuring done
+[7.568s] -- Generating done
+[7.571s] -- Build files have been written to: /home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_straightline_planner
+[7.582s] Invoked command in '/home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_straightline_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stephanie/install/nav2_simple_commander:/home/stephanie/install/nav2_gazebo_spawner:/home/stephanie/install/examples_rclpy_pointcloud_publisher:/home/stephanie/install/examples_rclpy_minimal_subscriber:/home/stephanie/install/examples_rclpy_minimal_service:/home/stephanie/install/examples_rclpy_minimal_publisher:/home/stephanie/install/examples_rclpy_minimal_client:/home/stephanie/install/examples_rclpy_minimal_action_server:/home/stephanie/install/examples_rclpy_minimal_action_client:/home/stephanie/install/examples_rclpy_guard_conditions:/home/stephanie/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake /home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_straightline_planner -DCMAKE_INSTALL_PREFIX=/home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner
+[7.586s] Invoking command in '/home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_straightline_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stephanie/install/nav2_simple_commander:/home/stephanie/install/nav2_gazebo_spawner:/home/stephanie/install/examples_rclpy_pointcloud_publisher:/home/stephanie/install/examples_rclpy_minimal_subscriber:/home/stephanie/install/examples_rclpy_minimal_service:/home/stephanie/install/examples_rclpy_minimal_publisher:/home/stephanie/install/examples_rclpy_minimal_client:/home/stephanie/install/examples_rclpy_minimal_action_server:/home/stephanie/install/examples_rclpy_minimal_action_client:/home/stephanie/install/examples_rclpy_guard_conditions:/home/stephanie/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake --build /home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_straightline_planner -- -j6 -l6
+[7.646s] [35m[1mScanning dependencies of target nav2_straightline_planner_plugin[0m
+[7.737s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o[0m
+[12.821s] [100%] [32m[1mLinking CXX shared library libnav2_straightline_planner_plugin.so[0m
+[13.023s] [100%] Built target nav2_straightline_planner_plugin
+[13.038s] Invoked command in '/home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_straightline_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stephanie/install/nav2_simple_commander:/home/stephanie/install/nav2_gazebo_spawner:/home/stephanie/install/examples_rclpy_pointcloud_publisher:/home/stephanie/install/examples_rclpy_minimal_subscriber:/home/stephanie/install/examples_rclpy_minimal_service:/home/stephanie/install/examples_rclpy_minimal_publisher:/home/stephanie/install/examples_rclpy_minimal_client:/home/stephanie/install/examples_rclpy_minimal_action_server:/home/stephanie/install/examples_rclpy_minimal_action_client:/home/stephanie/install/examples_rclpy_guard_conditions:/home/stephanie/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake --build /home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_straightline_planner -- -j6 -l6
+[13.078s] Invoking command in '/home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_straightline_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stephanie/install/nav2_simple_commander:/home/stephanie/install/nav2_gazebo_spawner:/home/stephanie/install/examples_rclpy_pointcloud_publisher:/home/stephanie/install/examples_rclpy_minimal_subscriber:/home/stephanie/install/examples_rclpy_minimal_service:/home/stephanie/install/examples_rclpy_minimal_publisher:/home/stephanie/install/examples_rclpy_minimal_client:/home/stephanie/install/examples_rclpy_minimal_action_server:/home/stephanie/install/examples_rclpy_minimal_action_client:/home/stephanie/install/examples_rclpy_guard_conditions:/home/stephanie/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake --install /home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_straightline_planner
+[13.088s] -- Install configuration: ""
+[13.089s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/global_planner_plugin.xml
+[13.089s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/lib/libnav2_straightline_planner_plugin.so
+[13.089s] -- Set runtime path of "/home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/lib/libnav2_straightline_planner_plugin.so" to ""
+[13.090s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/include/
+[13.090s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/include//nav2_straightline_planner
+[13.090s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/include//nav2_straightline_planner/straight_line_planner.hpp
+[13.090s] -- Up-to-date: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/global_planner_plugin.xml
+[13.090s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/library_path.sh
+[13.090s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/library_path.dsv
+[13.091s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/ament_index/resource_index/package_run_dependencies/nav2_straightline_planner
+[13.091s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/ament_index/resource_index/parent_prefix_path/nav2_straightline_planner
+[13.091s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/ament_prefix_path.sh
+[13.091s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/ament_prefix_path.dsv
+[13.091s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/path.sh
+[13.091s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/path.dsv
+[13.091s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.bash
+[13.092s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.sh
+[13.092s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.zsh
+[13.092s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.dsv
+[13.092s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/package.dsv
+[13.092s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/ament_index/resource_index/packages/nav2_straightline_planner
+[13.092s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_straightline_planner
+[13.093s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.093s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[13.093s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.093s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/nav2_straightline_plannerConfig.cmake
+[13.093s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/nav2_straightline_plannerConfig-version.cmake
+[13.093s] -- Installing: /home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/package.xml
+[13.095s] Invoked command in '/home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_straightline_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stephanie/install/nav2_simple_commander:/home/stephanie/install/nav2_gazebo_spawner:/home/stephanie/install/examples_rclpy_pointcloud_publisher:/home/stephanie/install/examples_rclpy_minimal_subscriber:/home/stephanie/install/examples_rclpy_minimal_service:/home/stephanie/install/examples_rclpy_minimal_publisher:/home/stephanie/install/examples_rclpy_minimal_client:/home/stephanie/install/examples_rclpy_minimal_action_server:/home/stephanie/install/examples_rclpy_minimal_action_client:/home/stephanie/install/examples_rclpy_guard_conditions:/home/stephanie/install/examples_rclpy_executors:/opt/ros/galactic /usr/bin/cmake --install /home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_straightline_planner

@@ -1,0 +1,35 @@
+[0.043s] Invoking command in '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/build/nav2_costmap_filters_demo': /usr/bin/cmake /home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_costmap_filters_demo -DCMAKE_INSTALL_PREFIX=/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/install/nav2_costmap_filters_demo
+[0.202s] -- The C compiler identification is GNU 9.3.0
+[0.279s] -- The CXX compiler identification is GNU 9.3.0
+[0.286s] -- Check for working C compiler: /usr/bin/cc
+[0.389s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.392s] -- Detecting C compiler ABI info
+[0.504s] -- Detecting C compiler ABI info - done
+[0.520s] -- Detecting C compile features
+[0.520s] -- Detecting C compile features - done
+[0.524s] -- Check for working CXX compiler: /usr/bin/c++
+[0.657s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.660s] -- Detecting CXX compiler ABI info
+[0.777s] -- Detecting CXX compiler ABI info - done
+[0.796s] -- Detecting CXX compile features
+[0.797s] -- Detecting CXX compile features - done
+[0.814s] CMake Error at CMakeLists.txt:6 (find_package):
+[0.814s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.815s]   has asked CMake to find a package configuration file provided by
+[0.815s]   "ament_cmake", but CMake did not find one.
+[0.816s] 
+[0.821s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.822s]   any of the following names:
+[0.822s] 
+[0.822s]     ament_cmakeConfig.cmake
+[0.822s]     ament_cmake-config.cmake
+[0.822s] 
+[0.823s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.823s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.823s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.823s]   has been installed.
+[0.823s] 
+[0.823s] 
+[0.824s] -- Configuring incomplete, errors occurred!
+[0.825s] See also "/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/build/nav2_costmap_filters_demo/CMakeFiles/CMakeOutput.log".
+[0.846s] Invoked command in '/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/build/nav2_costmap_filters_demo' returned '1': /usr/bin/cmake /home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_costmap_filters_demo -DCMAKE_INSTALL_PREFIX=/home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/install/nav2_costmap_filters_demo

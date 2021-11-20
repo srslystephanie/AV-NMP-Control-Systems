@@ -1,0 +1,1 @@
+Invoking command in '/home/stephanie/AV-NMP-Control-Systems/dev_ws/build/nav2_gradient_costmap_plugin': /usr/bin/cmake /home/stephanie/AV-NMP-Control-Systems/dev_ws/src/navigation2_tutorials/nav2_gradient_costmap_plugin -DCMAKE_INSTALL_PREFIX=/home/stephanie/AV-NMP-Control-Systems/dev_ws/install/nav2_gradient_costmap_plugin
